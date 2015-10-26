@@ -160,7 +160,7 @@ class QueueAnim extends React.Component {
             easing: this.getVelocityEasing()[0],
             visibility: 'visible',
             begin: this.enterBegin.bind(this, key),
-            complete: this.enterComplete.bind(this, key),
+            complete: this.enterComplete.bind(this, key)
         });
         if (this.keysToEnter.indexOf(key) >= 0) {
             this.keysToEnter.splice(this.keysToEnter.indexOf(key), 1);

@@ -63,7 +63,7 @@ define(
 
         QueueAnim.prototype = {
             init: function () {
-                init[QueueAnim]();
+                init();
                 bindEvents();
             }
             

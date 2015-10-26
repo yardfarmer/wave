@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="gbk">
+    <title></title>
+</head>
+<body>
+
+<div class="mod-someone">
+    <div data-animate-key="1">
+        <p>1</p>
+    </div>
+    <div data-animate-key="2">
+        <p>2</p>
+    </div>
+    <div data-animate-key="3">
+        <p>3</p>
+    </div>
+    <div data-animate-key="4">
+        <p>4</p>
+    </div>
+</div>
+
+<!-- /.mod-someone -->
+
+<script>
+
+    define(['../src/index'], function (Wave) {
+        //1. by selector
+         new Wave('.mod-someone');
+
+        //2. dom array
+        new Wave([]);
+        //
+
+    })
+
+</script>
+
+</body>
+</html>
